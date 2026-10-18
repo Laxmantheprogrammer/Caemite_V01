@@ -1,8 +1,44 @@
+# Python bytecode and caches
 __pycache__/
 *.py[cod]
+*$py.class
+*.so
+
+# Python environments
 .venv/
 venv/
+env/
+ENV/
+
+# Environment variables and secrets
+.env
+.envrc
+
+# Python packaging and build artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+wheels/
+pip-wheel-metadata/
+
+# Testing and type-checking caches
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+.hypothesis/
+
+# IDE settings
+.idea/
+.vscode/
+
+# Caemite / Quantum ESPRESSO outputs
 *.save/
 caemite.xml
 *.scf.out
+
+# LAMMPS outputs
 log.lammps
