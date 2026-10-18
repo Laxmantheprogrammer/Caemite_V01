@@ -1,0 +1,30 @@
+&CONTROL
+    calculation = 'scf',
+    prefix = 'caemite',
+    pseudo_dir = '/home/laxma/QE_src/q-e/QEHeat/examples/pseudo',
+    tprnfor = .true.,
+/
+&SYSTEM
+    ibrav = 0,
+    nat = 3,
+    ntyp = 2,
+    ecutwfc = 50,
+/
+&ELECTRONS
+    conv_thr = 1.0d-8,
+/
+ATOMIC_SPECIES
+    O  15.999  O_HSCV_PBE-1.0.upf
+    H  1.008  H_HSCV_PBE-1.0.upf
+
+ATOMIC_POSITIONS angstrom
+    O 0.00893466 0.40402222 0.00000000
+    H -0.78731313 -0.18469915 0.00000000
+    H 0.77837847 -0.21932307 0.00000000
+
+CELL_PARAMETERS angstrom
+    10.0  0.0   0.0
+    0.0   10.0  0.0
+    0.0   0.0  10.0
+
+K_POINTS gamma
