@@ -1,0 +1,6 @@
+property,unit,missing_count,available_count,missing_percentage
+density,g/cm^3,0,163211,0.0
+band_gap,eV,8838,154373,5.4151
+formation_energy_per_atom,eV/atom,8838,154373,5.4151
+energy_above_hull,eV/atom,8838,154373,5.4151
+volume,angstrom^3,0,163211,0.0

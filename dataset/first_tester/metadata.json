@@ -1,0 +1,30 @@
+{
+    "source": "Materials Project",
+    "endpoint": "materials.summary",
+    "dataset_version": "2026-09-28",
+    "retrieved_at": "2026-11-09T13:15:24.450369+00:00",
+    "total_material_records": 163211,
+    "properties": [
+        "density",
+        "band_gap",
+        "formation_energy_per_atom",
+        "energy_above_hull",
+        "volume"
+    ],
+    "units": {
+        "density": "g/cm^3",
+        "band_gap": "eV",
+        "formation_energy_per_atom": "eV/atom",
+        "energy_above_hull": "eV/atom",
+        "volume": "angstrom^3"
+    },
+    "missing_records": 8842,
+    "missing_property_counts": {
+        "density": 0,
+        "band_gap": 8838,
+        "formation_energy_per_atom": 8838,
+        "energy_above_hull": 8838,
+        "volume": 0
+    },
+    "missing_values_policy": "None and NaN are missing. Zero is a valid numerical value."
+}
